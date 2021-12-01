@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <title>jogo da memória js</title>
+   <script src="jsmemoria.js"></script>
+   <link rel="stylesheet" href="css_memoria.css">
+
+</head>
+
+<body>
+   <header>
+      <h1> JOGO DA M<span style="color:white;">EMÓRIA</span></h1>
+   </header>
+   <section>
+      <article class="tela1">
+         <input src="cinza.png" type="image" id="0" class="escolha">
+         <input src="cinza.png" type="image" id="1" class="escolha">
+         <input src="cinza.png" type="image" id="2" class="escolha">
+         <input src="cinza.png" type="image" id="3" class="escolha">
+         <input src="cinza.png" type="image" id="4" class="escolha">
+      </article>
+      <article class="tela2">
+         <input src="cinza.png" type="image" id="5" class="escolha">
+         <input src="cinza.png" type="image" id="6" class="escolha">
+         <input src="cinza.png" type="image" id="7" class="escolha">
+         <input src="cinza.png" type="image" id="8" class="escolha">
+         <input src="cinza.png" type="image" id="9" class="escolha">
+      </article>
+      <article class="tela3">
+         <input src="cinza.png" type="image" id="10" class="escolha">
+         <input src="cinza.png" type="image" id="11" class="escolha">
+         <input src="cinza.png" type="image" id="12" class="escolha">
+         <input src="cinza.png" type="image" id="13" class="escolha">
+         <input src="cinza.png" type="image" id="14" class="escolha">
+      </article>
+      <article class="tela4">
+         <input src="cinza.png" type="image" id="15" class="escolha">
+         <input src="cinza.png" type="image" id="16" class="escolha">
+         <input src="cinza.png" type="image" id="17" class="escolha">
+         <input src="cinza.png" type="image" id="18" class="escolha">
+         <input src="cinza.png" type="image" id="19" class="escolha">
+      </article>
+
+
+
+   </section>
+   <footer>
+      <fieldset>
+         <legend> Placar do Jogo </legend>
+         <div id="placarjogo">
+            <span style="color:red;">JOGADOR1:</span><input type="text" placeholder="0" id="j1" disabled="disabled"><br>
+            <span style="color:orange;">JOGADOR2:</span><input type="text" placeholder="0" id="j2" disabled="disabled">
+         </div>
+         <div id="partida">
+            <button id="iniciar"> Iniciar </button>
+            <button id="cancelar" disabled="disabled"> Cancelar </button>
+            <button id="novapart" disabled="disabled">Nova partida</button>
+         </div>
+
+
+      </fieldset>
+
+
+
+   </footer>
+
+
+
+
+
+</body>
+
+</html>

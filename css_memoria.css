@@ -1,0 +1,141 @@
+body {
+    background-color: rgba(0, 0, 100, 0.7);
+    margin: 0px;
+    padding: 0px;
+
+
+ }
+
+ h1 {
+
+    color: green;
+    position: relative;
+    text-align: center;
+
+
+
+
+
+ }
+
+ header {
+    background: rgba(100, 0, 0, 0.7);
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ section {
+    background: rgba(10, 10, 10, 0.7);
+    display: flex;
+    min-height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+ }
+
+ footer {
+    display: flex;
+    min-height: 30vh;
+
+
+    justify-content: center;
+    align-items: center;
+ }
+
+ .tela1,
+ .tela2,
+ .tela3,
+ .tela4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ section input {
+    box-shadow: 5px 8px 7px grey;
+
+
+ }
+
+ input {
+    width: 11vw;
+    height: 11vh;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 5px;
+
+
+
+ }
+
+
+ #placarjogo input {
+
+    height: 15px;
+    color: white;
+    font-size: 12px;
+    width: 30px;
+
+
+ }
+
+ #partida {
+    text-transform: uppercase;
+    display: flex;
+
+
+
+
+
+    font-weight: bold;
+
+ }
+
+ button {
+    margin: 1px;
+    width: 80px;
+    border-radius: 8px;
+ }
+
+ #iniciar {
+    background: green;
+    color: yellow;
+    border-color: green;
+ }
+
+ #cancelar {
+    background: red;
+    border-color: red;
+ }
+
+ #novapart {
+    background: white;
+    border-color: white;
+ }
+
+ legend {
+
+    text-transform: uppercase;
+    color: orange;
+
+ }
+
+ fieldset {
+    background-color: rgba(20, 20, 10, 0.5);
+    min-width: 95vw;
+    height: 20vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+ }
